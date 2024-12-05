@@ -36,3 +36,81 @@
     transform: rotate(360deg);
   }
 }
+body {
+  background-color: #f8f9fa;
+  font-family: 'Arial', sans-serif;
+}
+
+h1 {
+  color: #343a40;
+}
+
+.list-group-item {
+  cursor: pointer;
+}
+
+.list-group-item-success {
+  background-color: #d4edda !important;
+}
+/* App.css */
+body {
+  background-color: #f4f4f4;
+}
+
+button {
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.list-group-item {
+  margin: 5px 0;
+}
+body {
+  background-color: #f7f7f7;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+button {
+  border-radius: 5px;
+}
+
+button:focus {
+  box-shadow: none;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+.list-group-item {
+  border: none;
+  padding: 15px;
+  background-color: #f9f9f9;
+}
+
+.list-group-item:hover {
+  background-color: #eaeaea;
+}
+
+button[variant="danger"] {
+  border-radius: 50%;
+  padding: 0.5rem;
+}
